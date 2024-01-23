@@ -23,14 +23,24 @@ const PokemonCard = () => {
     loadPokemon();
   }, [id]);
 
-  // Conditional rendering to check if the 'sprites' object and 'front_default' property exist
+  console.log(pokemon);
+
+  // Conditional rendering to check if the sprites object and front_default property exist
   return (
     <div key={pokemon.id}>
       <h1>{pokemon.name}</h1>
       {pokemon.sprites && pokemon.sprites.front_default && (
-        <img src={pokemon.sprites.front_default} alt={pokemon.name} />
+        <img
+          className="pokemon-img"
+          src={pokemon.sprites.front_default}
+          alt={pokemon.name}
+        />
       )}
-      <p>{pokemon.height}</p>
+      {pokemon.types && pokemon.types.length > 0 && (
+        <p>Type: {pokemon.types[0].type.name}</p>
+      )}
+      <p>Height: {pokemon.height}</p>
+      <p>Weight: {pokemon.weight}</p>
     </div>
   );
 };

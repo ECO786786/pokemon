@@ -29,12 +29,29 @@ h1 {
 }
 img {
   width: 50%;
+  display: block;
+}
+.pokemon-img {
+  width: auto;
+  margin: 0 auto;
 }
 p {
   color: #edf2f4;
   font-size: 2rem;
   text-align: center;
 }
+
+label {
+  font-size: 1.25rem;
+  color: #edf2f4;
+}
+
+input[type="text"] {
+  padding: 0.3rem 2rem;
+  margin: 1rem;
+  font-size: 1.25rem;
+}
+
 .container {
   display: flex;
   flex-direction: column;
