@@ -6,14 +6,29 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 1rem;
   align-items: baseline;
   flex-wrap: wrap;
 }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 h1 {
   color: #edf2f4;
+  font-size: 3.5rem;
+  text-align: center;
+}
+img {
+  width: 50%;
+}
+p {
+  color: #edf2f4;
   font-size: 2rem;
+  text-align: center;
 }
 .container {
   display: flex;
