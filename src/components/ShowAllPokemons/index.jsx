@@ -7,7 +7,9 @@ const ShowAllPokemons = () => {
   useEffect(() => {
     const loadPokemon = async () => {
       try {
-        const response = await fetch("https://pokeapi.co/api/v2/pokemon/");
+        const response = await fetch(
+          "https://pokeapi.co/api/v2/pokemon?limit=150&offset=0"
+        );
         const data = await response.json();
         if (response.status === 200) {
           SetPokemons(data.results);

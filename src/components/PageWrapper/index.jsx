@@ -10,7 +10,7 @@ const PageWrapper = () => {
             Home
           </NavLink>
           <NavLink to="/pokemons" style={styles}>
-            All pokemons
+            All Pokémons
           </NavLink>
         </nav>
       </header>
