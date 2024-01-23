@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
-const styles = ({ isActive }) => ({ color: isActive ? "#000C66" : "#edf2f4" });
+const styles = ({ isActive }) => ({ color: isActive ? "#a8dadc" : "#edf2f4" });
 
 const PageWrapper = () => {
   return (
