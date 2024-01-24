@@ -27,7 +27,7 @@ const PokemonCard = () => {
 
   // Conditional rendering to check if the sprites object and front_default property exist
   return (
-    <div key={pokemon.id}>
+    <div className="box" key={pokemon.id}>
       <h1>{pokemon.name}</h1>
       {pokemon.sprites && pokemon.sprites.front_default && (
         <img

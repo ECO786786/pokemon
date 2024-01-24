@@ -75,3 +75,9 @@ input[type="text"] {
   color: #edf2f4;
   text-decoration: none;
 }
+
+.box {
+  border: 2px solid #edf2f4;
+  width: 50%;
+  margin: 5% auto;
+}
