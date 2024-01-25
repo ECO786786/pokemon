@@ -1,7 +1,10 @@
+import PropTypes from "prop-types";
+
 const CardFilter = ({ textFilter, setTextFilter }) => {
   const handleText = (e) => {
     setTextFilter(e.target.value);
   };
+
   return (
     <div>
       <label>
@@ -10,6 +13,11 @@ const CardFilter = ({ textFilter, setTextFilter }) => {
       </label>
     </div>
   );
+};
+
+CardFilter.propTypes = {
+  textFilter: PropTypes.string.isRequired,
+  setTextFilter: PropTypes.func.isRequired,
 };
 
 export default CardFilter;
