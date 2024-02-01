@@ -6,6 +6,10 @@ expect.extend(matchers);
 
 import NotFoundPage from ".";
 
+/**
+ * @vitest-environment jsdom
+ */
+
 describe("NotFound", () => {
   beforeEach(() => {
     render(
