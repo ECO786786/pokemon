@@ -4,6 +4,8 @@ Discover a world of creatures, battles, and legendary adventures with the Pokém
 
 Whether you're a seasoned Trainer or new to the world of Pokémon, this app provides a seamless way to connect with your favorite characters and enhance your Pokémon journey. Get ready to catch them all!
 
+![app image](public/img.png)
+
 # Installation & Usage
 
 ## Instalation
