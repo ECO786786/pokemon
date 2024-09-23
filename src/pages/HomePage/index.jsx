@@ -6,7 +6,7 @@ const HomePage = () => {
       <h1>Welcome to the world of</h1>
       <img src={pokemonLogo} alt="Pokemon Logo" />
       <p>
-        Discover a world of creatures, battles, and legendary adventures in
+        Discover a world of creatures, battles and legendary adventures in
         Pokémon.
       </p>
     </main>
